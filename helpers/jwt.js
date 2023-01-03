@@ -10,7 +10,6 @@ function authJwt() {
   }).unless({
     path: [
       { url: /\/api\/v1\/coupens/, methods: ["GET"] },
-      "https://ecommerce_coupen.onrender.com/api/v1/coupens",
       `${api}/admins/login`,
       `${api}/admins/register`,
     ],
