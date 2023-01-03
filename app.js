@@ -12,9 +12,6 @@ const authJwt = require("./helpers/jwt");
 const errorHandler = require("./helpers/error-handler");
 
 //middleware
-app.use((req, res) => {
-  res.send(`<h1>Hello</h1>`);
-});
 app.use(express.json());
 app.use(cors());
 // app.use(authJwt());
