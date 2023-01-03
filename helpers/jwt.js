@@ -12,6 +12,7 @@ function authJwt() {
       { url: /\/api\/v1\/coupens/, methods: ["GET"] },
       `${api}/admins/login`,
       `${api}/admins/register`,
+      "https://ecommerce-coupen.onrender.com",
     ],
   });
 }
